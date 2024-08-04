@@ -99,7 +99,28 @@ img{
     height: 90px;
     width: 70px;
   }
-  .imgCarousel.active {
-    transform: scale(1.1);
+  .imgCarousel:hover {
+    width: 50px;
+    height: 90px;
+  }
+}
+
+
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
   }
 }
