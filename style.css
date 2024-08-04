@@ -55,7 +55,7 @@ h1::before{
 
 @media (max-width: 480px) {
   h1{
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
@@ -93,11 +93,11 @@ img{
 
 @media (max-width: 480px) {
   #mainPhoto{
-    height: 500px;
+    height: 400px;
   }
   .imgCarousel{
-    height: 100px;
-    width: 80px;
+    height: 90px;
+    width: 70px;
   }
   .imgCarousel.active {
     transform: scale(1.1);
