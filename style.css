@@ -109,7 +109,8 @@ img{
 .waviy {
   position: relative;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+  text-align: center;
 }
 .waviy span {
   position: relative;
@@ -135,7 +136,7 @@ img{
 .waviy::before {
   content: "";
   position: absolute;
-  left: 40%;
+  left: 48%;
   bottom: 16px;
   width: 300px;
   height: 14px;
@@ -151,5 +152,51 @@ img{
   .waviy::before{
     width: 200px;
     height: 10px;
+  }
+}
+
+.manifesto{
+  color: white;
+  font-size: 30px;
+  width: 100vw;
+  margin-top: 80px;
+}
+
+.manifesto h3{
+  margin-bottom: 20px;
+}
+
+.manifesto p{
+  margin-bottom: 5px;
+}
+
+.man-con{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .man-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  .manifesto{
+    font-size: 10px;
   }
 }
