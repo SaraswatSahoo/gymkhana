@@ -108,6 +108,8 @@ img{
 
 .waviy {
   position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .waviy span {
   position: relative;
@@ -122,5 +124,32 @@ img{
 @keyframes flip {
   0%,80% {
     transform: rotateY(360deg) 
+  }
+}
+
+.waviy {
+  padding: 30px 0 8px;
+  position: relative;
+}
+
+.waviy::before {
+  content: "";
+  position: absolute;
+  left: 40%;
+  bottom: 16px;
+  width: 300px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-50%);
+  background: rgba(238,111,87,0.5);
+  z-index: -1;
+}
+
+@media (max-width:480px) {
+  .waviy span{
+    font-size: 30px;
+  }
+  .waviy::before{
+    width: 200px;
+    height: 10px;
   }
 }
