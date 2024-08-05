@@ -138,7 +138,7 @@ img{
   position: absolute;
   left: 48%;
   bottom: 16px;
-  width: 300px;
+  width: 330px;
   height: 14px;
   transform: skew(-12deg) translateX(-50%);
   background: rgba(238,111,87,0.5);
@@ -198,7 +198,8 @@ img{
     margin-bottom: 20px;
   }
   .manifesto{
-    font-size: 14px;
+    font-size: 12px;
+    margin-bottom: -40px;
   }
 }
 
@@ -237,14 +238,68 @@ img{
 }
 
 @media (max-width: 480px) {
+  .feed{
+    margin-top: -20px;
+    margin-bottom: -40px;
+  }
   .feed strong{
-    font-size: 25px;
+    font-size: 15px;
   }
   .feed p{
-    font-size: 18px;
+    font-size: 12px;
     width: 300px;
   }
   .feed a{
-    font-size: 25px;
+    font-size: 20px;
+  }
+}
+
+
+.cena{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cena strong{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.cena p{
+  width: 1000px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.cena a{
+  text-decoration: none;
+  font-size: 40px;
+  color: #0496FF;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.cena a:hover{
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .cena{
+    margin-top: -20px;
+    margin-bottom: -40px;
+  }
+  .cena strong{
+    font-size: 15px;
+  }
+  .cena p{
+    font-size: 12px;
+    width: 300px;
+  }
+  .cena a{
+    font-size: 20px;
   }
 }
