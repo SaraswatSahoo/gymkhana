@@ -321,3 +321,16 @@ img{
     width: 200px;
   }
 }
+
+.posImg{
+  height: 700px;
+  object-fit: contain;
+  margin-bottom: 50px;
+}
+
+@media (max-width:480px) {
+  .posImg{
+    width: 380px;
+    margin-top: -220px;
+  }
+}
