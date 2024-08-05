@@ -287,6 +287,12 @@ img{
   text-decoration: underline;
 }
 
+.instaQR{
+  height: 300px;
+  width: 300px;
+  text-align: start;
+}
+
 @media (max-width: 480px) {
   .cena{
     margin-top: -20px;
@@ -295,6 +301,7 @@ img{
   .cena strong{
     font-size: 15px;
     text-align: center;
+    width: 80%;
   }
   .cena p{
     font-size: 12px;
@@ -302,5 +309,15 @@ img{
   }
   .cena a{
     font-size: 20px;
+  }
+
+  .cena-con{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .instaQR{
+    height: 200px;
+    width: 200px;
   }
 }
