@@ -330,8 +330,6 @@ img{
 
 .gallery{
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .img-box{
@@ -369,7 +367,7 @@ img{
   background-position-x: 80%;
 }
 
-.img-box:hover{
+.img-box:hover, .img-box.active{
   width: 500px;
   cursor: pointer;
   background-position: center;
@@ -384,9 +382,13 @@ img{
     background-position-x: right;
   }
 
-  .img-box:hover{
+  .img-box:hover, .img-box.active{
     width: 200px;
     border-radius: 0px;
+  }
+  
+  .gallery{
+    width: 70%;
   }
 }
 
@@ -397,6 +399,11 @@ img{
   justify-content: center;
   align-items: center;
   margin-bottom: 80px;
+}
+
+.video-box{
+  border: 5px solid white;
+  padding: 20px;
 }
 
 @media (max-width:480px) {
