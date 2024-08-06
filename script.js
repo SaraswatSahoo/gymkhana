@@ -49,4 +49,4 @@ let index = 0;
 setInterval(()=>{
   index = ( index + 1 ) % poster.length;
   viewPoster(poster[index]);
-}, 3000);
+}, 4000);
