@@ -383,7 +383,7 @@ img{
   }
 
   .img-box:hover, .img-box.active{
-    width: 200px;
+    width: 350px;
     border-radius: 0px;
   }
   
