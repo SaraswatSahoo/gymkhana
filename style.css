@@ -411,3 +411,16 @@ img{
     width: 200px;
   }
 }
+
+.video-box1{
+  padding: 20px;
+}
+
+@media (max-width:480px) {
+  .video-box1 video{
+    width: 350px;
+  }
+  .video-box1{
+    padding: 0px ;
+  }
+}
